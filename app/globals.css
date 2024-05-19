@@ -5,7 +5,7 @@
 .hero-section {
   height: 100vh;
   width: 100vw;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .parent-div {
@@ -19,6 +19,7 @@
 .left-child,
 .right-child {
   flex: 1;
+  padding: 0 30px;
 }
 
 .left-child h1 {
@@ -26,12 +27,27 @@
   font-weight: 700;
 }
 
-.left-child h2 {
+/* .left-child h2 {
   font-size: 1.2rem;
-}
+  color: #0033E7;
+} */
+
+/* .hindi-heading .horizontal {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  vertical-align: middle;
+  margin-right: 4px;
+  background-color: #0033E7;
+} */
 
 .left-child p {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   opacity: .5;
 }
+
+.left-child .break {
+  display: block;
+}
+
