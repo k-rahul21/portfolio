@@ -4,7 +4,7 @@ import HindiHeading from "../hindiHeading/hindiHeading";
 
 const HeroSection = () => {
     return( 
-        <section className="hero-section mt-10">  
+        <section className="hero-section">  
             <div className="parent-div">
                 <div className="left-child">
                     <HindiHeading heading='मेरा परिचय'/>

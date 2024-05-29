@@ -4,8 +4,15 @@
 
 .hero-section {
   height: 100vh;
-  width: 100vw;
   margin-top: 20px;
+  overflow: auto;
+}
+
+.skills-section,
+.experience-section {
+  margin-top: 20px;
+  overflow: auto;
+  height: 70vh;
 }
 
 .parent-div {
@@ -27,19 +34,11 @@
   font-weight: 700;
 }
 
-/* .left-child h2 {
-  font-size: 1.2rem;
-  color: #0033E7;
-} */
+.section-heading{
+  font-size: 3rem;
+  font-weight: 700;
+}
 
-/* .hindi-heading .horizontal {
-  display: inline-block;
-  width: 30px;
-  height: 2px;
-  vertical-align: middle;
-  margin-right: 4px;
-  background-color: #0033E7;
-} */
 
 .left-child p {
   font-weight: 400;
