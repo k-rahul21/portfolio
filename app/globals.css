@@ -4,8 +4,15 @@
 
 .hero-section {
   height: 100vh;
-  width: 100vw;
-  margin-top: 40px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.skills-section,
+.experience-section {
+  margin-top: 20px;
+  overflow: auto;
+  height: 70vh;
 }
 
 .parent-div {
@@ -19,6 +26,7 @@
 .left-child,
 .right-child {
   flex: 1;
+  padding: 0 30px;
 }
 
 .left-child h1 {
@@ -26,12 +34,19 @@
   font-weight: 700;
 }
 
-.left-child h2 {
-  font-size: 1.2rem;
+.section-heading{
+  font-size: 3rem;
+  font-weight: 700;
 }
+
 
 .left-child p {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   opacity: .5;
 }
+
+.left-child .break {
+  display: block;
+}
+
